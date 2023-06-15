@@ -1,0 +1,1 @@
+alert("INVALID filename or type.\nIn Filename, only alphanumeric characters, hyphen(-) and underscore(_) are allowed.\nFile extensions supported are JPG, BMP, PDF.");
