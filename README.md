@@ -1,58 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!-- <div class="main-frame">
-    <div class="first">1st</div>
-    <div class="second">2nd</div>
-    <div class="third">3rd</div>
-    <div class="fourth">4th</div>
-    <hr> -->
-    <header class>Header</header>
-    <main>Main</main>
-    <footer>Footer</footer>
-</div>
-  </body>
-</html>
+<html>
+<head>
+  <title>Responsive Page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    html, body {
+      height: 100%;
+    }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-html {
-  height: 100%;
-}
-body {
-  height: 100%;
-}
-header {
-  background-color: aquamarine;
-  height: 10%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: black;
-}
-main {
-  background-color: coral;
-  height: 85%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-}
-footer {
-  background-color: blueviolet;
-  height: 5%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-}
+    .container {
+      background-color: orange;
+      min-height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background-color: red;
+      padding: 20px;
+    }
+
+    main {
+      flex-grow: 1;
+      background-color: red;
+      padding: 20px;
+    }
+
+    footer {
+      background-color: red;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Header</h1>
+    </header>
+
+    <main>
+      <h2>Main Content</h2>
+    </main>
+
+    <footer>
+      <h3>Footer</h3>
+    </footer>
+  </div>
+</body>
+</html>
